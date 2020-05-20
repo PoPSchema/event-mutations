@@ -1,2 +1,2 @@
 <?php
-\PoP\EventMutations\Component::init();
+//\PoP\EventMutations\Component::initialize();
