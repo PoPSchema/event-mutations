@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/event-mutations
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\EventMutations\Component::initialize();
 ```
--->
 
 ## Standards
 
