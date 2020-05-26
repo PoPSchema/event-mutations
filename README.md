@@ -25,7 +25,9 @@ composer require getpop/event-mutations
 Initialize the component:
 
 ``` php
-\PoP\EventMutations\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\EventMutations\Component::class,
+]);
 ```
 
 ## Standards
