@@ -1,5 +1,5 @@
 {
-    "name": "getpop/event-mutations",
+    "name": "pop-schema/event-mutations",
     "type": "library",
     "description": "Adds support for event mutations",
     "keywords": [
