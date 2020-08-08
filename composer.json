@@ -19,7 +19,7 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/events": "dev-master"
+        "pop-schema/events": "dev-master"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\EventMutations\\": "src"
+            "PoPSchema\\EventMutations\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\EventMutations\\": "tests"
+            "PoPSchema\\EventMutations\\": "tests"
         }
     },
     "scripts": {

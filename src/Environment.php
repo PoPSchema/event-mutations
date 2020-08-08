@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\EventMutations;
+namespace PoPSchema\EventMutations;
 
 class Environment
 {

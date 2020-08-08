@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PoP\EventMutations\Facades;
+namespace PoPSchema\EventMutations\Facades;
 
-use PoP\EventMutations\TypeAPIs\EventMutationTypeAPIInterface;
+use PoPSchema\EventMutations\TypeAPIs\EventMutationTypeAPIInterface;
 use PoP\Root\Container\ContainerBuilderFactory;
 
 class EventMutationTypeAPIFacade

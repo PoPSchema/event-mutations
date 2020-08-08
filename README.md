@@ -17,7 +17,7 @@ Adds support for event mutations
 Via Composer
 
 ``` bash
-composer require getpop/event-mutations
+composer require pop-schema/event-mutations
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\EventMutations\Component::class,
+    \PoPSchema\EventMutations\Component::class,
 ]);
 ```
 
@@ -75,17 +75,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/event-mutations.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/event-mutations.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/event-mutations/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/event-mutations.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/event-mutations.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/event-mutations.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/event-mutations/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/event-mutations.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/event-mutations.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/event-mutations.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/event-mutations
-[link-travis]: https://travis-ci.org/getpop/event-mutations
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/event-mutations/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/event-mutations
-[link-downloads]: https://packagist.org/packages/getpop/event-mutations
+[link-packagist]: https://packagist.org/packages/pop-schema/event-mutations
+[link-travis]: https://travis-ci.org/pop-schema/event-mutations
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/event-mutations/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/event-mutations
+[link-downloads]: https://packagist.org/packages/pop-schema/event-mutations
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors
