@@ -11,6 +11,10 @@ class EventMutationTypeAPIFacade
 {
     public static function getInstance(): EventMutationTypeAPIInterface
     {
-        return ContainerBuilderFactory::getInstance()->get('event_mutation_type_api');
+        /**
+         * @var EventMutationTypeAPIInterface
+         */
+        $service = ContainerBuilderFactory::getInstance()->get('event_mutation_type_api');
+        return $service;
     }
 }
