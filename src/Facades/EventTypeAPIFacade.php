@@ -14,7 +14,7 @@ class EventMutationTypeAPIFacade
         /**
          * @var EventMutationTypeAPIInterface
          */
-        $service = ContainerBuilderFactory::getInstance()->get('event_mutation_type_api');
+        $service = ContainerBuilderFactory::getInstance()->get(EventMutationTypeAPIInterface::class);
         return $service;
     }
 }
