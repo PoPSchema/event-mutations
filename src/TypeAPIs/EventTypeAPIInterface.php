@@ -9,5 +9,5 @@ namespace PoPSchema\EventMutations\TypeAPIs;
  */
 interface EventMutationTypeAPIInterface
 {
-    public function populate(&$event, $post_data);
+    public function populate(object &$event, array $post_data): void;
 }
